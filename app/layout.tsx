@@ -1,3 +1,4 @@
+import GoogleAnalytics from './GoogleAnalytics';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -205,7 +206,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}<GoogleAnalytics /></body>
     </html>
   );
 }
