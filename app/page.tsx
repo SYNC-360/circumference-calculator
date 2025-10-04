@@ -670,24 +670,85 @@ export default function CircumferenceCalculator() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="text-center text-gray-700 text-sm py-8 border-t border-gray-300">
-          <p className="mb-4 font-medium">© 2025 Circle Calculators. All rights reserved.</p>
-          <div className="flex flex-wrap justify-center gap-4 mb-4">
-            <a href="#" className="text-blue-600 hover:underline font-semibold">Area Calculator</a>
-            <span className="text-gray-400">|</span>
-            <a href="#" className="text-blue-600 hover:underline font-semibold">Radius Calculator</a>
-            <span className="text-gray-400">|</span>
-            <a href="#" className="text-blue-600 hover:underline font-semibold">Diameter Calculator</a>
-            <span className="text-gray-400">|</span>
-            <a href="#" className="text-blue-600 hover:underline font-semibold">Arc Length Calculator</a>
-            <span className="text-gray-400">|</span>
-            <a href="#" className="text-blue-600 hover:underline font-semibold">Sector Area Calculator</a>
+        {/* Related Circle Calculators - NEW SECTION */}
+        <div className="bg-blue-50 rounded-2xl p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Related Circle Calculators</h2>
+          <div className="grid md:grid-cols-4 gap-4">
+            <a href="https://areaofcircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Area Calculator</p>
+              <p className="text-sm text-gray-700 font-medium">Calculate using πr²</p>
+            </a>
+            <a href="https://radiusofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Radius Finder</p>
+              <p className="text-sm text-gray-700 font-medium">Find from circumference</p>
+            </a>
+            <a href="https://diameterofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Diameter Tool</p>
+              <p className="text-sm text-gray-700 font-medium">Calculate diameter</p>
+            </a>
+            <a href="https://circumferenceofacircleformula.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Formula Guide</p>
+              <p className="text-sm text-gray-700 font-medium">2πr explained</p>
+            </a>
           </div>
-          <p className="text-xs text-gray-500">
-            Educational tool for students, teachers, engineers, and professionals worldwide
-          </p>
         </div>
+
+        {/* Network Footer - UPDATED VERSION */}
+        <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-bold text-white mb-2">Circle Calculator Network</h2>
+              <p className="text-gray-400">Professional mathematical tools for education and professional use</p>
+            </div>
+            
+            <div className="grid md:grid-cols-4 gap-8 mb-8">
+              <div>
+                <h3 className="font-bold text-white mb-4">Core Tools</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://circumferenceofacircle.com" className="hover:text-white font-semibold">Circumference (Current)</a></li>
+                  <li><a href="https://areaofcircle.com" className="hover:text-white">Area Calculator</a></li>
+                  <li><a href="https://radiusofacircle.com" className="hover:text-white">Radius Finder</a></li>
+                  <li><a href="https://diameterofacircle.com" className="hover:text-white">Diameter Tool</a></li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-white mb-4">Formula Guides</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://circleareaformula.com" className="hover:text-white">Area Formula πr²</a></li>
+                  <li><a href="https://circumferenceofacircleformula.com" className="hover:text-white">Circumference 2πr</a></li>
+                  <li><a href="https://formulaforareaofacircle.com" className="hover:text-white">πr² Explained</a></li>
+                  <li><a href="https://equationofacircle.com" className="hover:text-white">Circle Equation</a></li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-white mb-4">How-To Tutorials</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://howtofindcircumference.com" className="hover:text-white">Find Circumference</a></li>
+                  <li><a href="https://howtofindareaofacircle.com" className="hover:text-white">Find Area</a></li>
+                  <li><a href="https://howtofindtheareaofacircle.com" className="hover:text-white">Area Tutorial</a></li>
+                  <li><a href="https://howtofindcircumferenceofacircle.com" className="hover:text-white">Circumference Guide</a></li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-white mb-4">Specialized</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://unitcircleradians.com" className="hover:text-white">Unit Circle</a></li>
+                  <li><a href="https://surfaceareaofacircle.com" className="hover:text-white">Surface Area</a></li>
+                  <li><a href="https://minecraftcirclechart.com" className="hover:text-white">Minecraft Circles</a></li>
+                  <li><a href="https://circlepng.com" className="hover:text-white">Circle Images</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="text-center text-sm text-gray-500 pt-8 border-t border-gray-800">
+              <p>© 2025 Circle Calculator Network. Educational tools for precise calculations.</p>
+              <p className="mt-2">High-precision mathematical calculators trusted by students and professionals worldwide.</p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
