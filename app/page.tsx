@@ -70,7 +70,7 @@ export default function CircumferenceCalculator() {
     if (inputValue) {
       calculateCircumference();
     }
-  }, [inputValue, inputType]);
+  }, [inputValue, inputType, calculateCircumference]);
 
   const examples = [
     { 
@@ -696,10 +696,10 @@ export default function CircumferenceCalculator() {
         {/* Ultra-Minimal Footer - Maximum Authority Retention */}
 <footer className="mt-20 border-t border-gray-200 bg-gray-50">
   <div className="max-w-6xl mx-auto px-4 py-8">
-    <div className="text-center">
-      <p className="text-sm text-gray-600 mb-2">
-        The world's most accurate circle circumference calculator - Used by 500,000+ monthly
-      </p>
+  <div className="text-center">
+  <p className="text-sm text-gray-600 mb-2">
+    The world&apos;s most accurate circle circumference calculator - Used by 500,000+ monthly
+  </p>
       <p className="text-sm text-gray-500 mb-4">
         Related: 
         <a href="https://areaofcircle.com" className="text-blue-600 hover:underline mx-2">Area Calculator</a>
