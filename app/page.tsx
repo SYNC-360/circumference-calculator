@@ -682,13 +682,17 @@ export default function CircumferenceCalculator() {
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Radius Finder</p>
               <p className="text-sm text-gray-700 font-medium">Find from circumference</p>
             </a>
-            <a href="https://diameterofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
-              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Diameter Tool</p>
-              <p className="text-sm text-gray-700 font-medium">Calculate diameter</p>
-            </a>
             <a href="https://circumferenceofacircleformula.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Formula Guide</p>
               <p className="text-sm text-gray-700 font-medium">2πr explained</p>
+            </a>
+            <a href="https://equationofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Equation Calculator</p>
+              <p className="text-sm text-gray-700 font-medium">Circle equation solver</p>
+            </a>
+            <a href="https://howtofindcircumferenceofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">How to Find Guide</p>
+              <p className="text-sm text-gray-700 font-medium">Step-by-step instructions</p>
             </a>
           </div>
         </div>
@@ -701,13 +705,16 @@ export default function CircumferenceCalculator() {
     The world&apos;s most accurate circle circumference calculator - Used by 500,000+ monthly
   </p>
       <p className="text-sm text-gray-500 mb-4">
-        Related: 
+        Related:
         <a href="https://areaofcircle.com" className="text-blue-600 hover:underline mx-2">Area Calculator</a>
         •
         <a href="https://radiusofacircle.com" className="text-blue-600 hover:underline mx-2">Radius Finder</a>
       </p>
-      <p className="text-xs text-gray-400">
+      <p className="text-xs text-gray-400 mb-3">
         © 2025 CircumferenceOfACircle.com - Educational Resource
+      </p>
+      <p className="text-xs text-gray-500">
+        Part of <a href="https://lab101.com" className="text-blue-600 hover:underline">Lab101.com Education Network</a>
       </p>
     </div>
   </div>
