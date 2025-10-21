@@ -133,12 +133,16 @@ export default function CircumferenceCalculator() {
             
             <div className="prose prose-lg text-gray-700 mb-8">
               <p className="text-xl mb-4">
-                The <strong>circumference of a circle</strong> is the distance around its edge. Calculate it instantly 
-                using our free tool with formulas C = 2πr (using radius) or C = πd (using diameter).
+                The <strong>circumference of a circle</strong> is the distance around its edge. Calculate it instantly
+                using our free tool with formulas C = 2πr (using radius) or C = πd (using diameter). You can also
+                <a href="https://areaofcircle.com" className="text-blue-600 hover:underline"> find the area of a circle from its circumference</a> using
+                the inverse relationship between these measurements.
               </p>
               <p className="text-lg text-gray-600">
-                Whether you&apos;re a student learning geometry, an engineer working on designs, or simply need to calculate 
-                the perimeter of a circular object, our calculator provides instant results with step-by-step solutions.
+                Whether you&apos;re a student learning geometry, an engineer working on designs, or simply need to calculate
+                the perimeter of a circular object, our calculator provides instant results with step-by-step solutions. For related
+                measurements, you can also <a href="https://radiusofacircle.com" className="text-blue-600 hover:underline">calculate radius from circumference</a> using
+                our companion tool.
               </p>
             </div>
           </div>
@@ -474,10 +478,12 @@ export default function CircumferenceCalculator() {
                   <div>
                     <span className="font-semibold text-gray-900">C = 2πr (Radius Formula):</span>
                     <p className="text-gray-700 mt-1 leading-relaxed">
-                      This formula multiplies the radius by 2π. Since the radius extends from the center to the edge, 
-                      we need to account for the full journey around the circle (hence the factor of 2). The π factor 
-                      converts this linear measurement into the curved distance. This is the most commonly used formula 
-                      in geometry because radius is often the primary given measurement in mathematical problems.
+                      This formula multiplies the radius by 2π. Since the radius extends from the center to the edge,
+                      we need to account for the full journey around the circle (hence the factor of 2). The π factor
+                      converts this linear measurement into the curved distance. This is the most commonly used formula
+                      in geometry because radius is often the primary given measurement in mathematical problems. You can also
+                      <a href="https://radiusofacircle.com" className="text-blue-600 hover:underline"> calculate radius from circumference</a> using
+                      the inverse formula.
                     </p>
                   </div>
                 </li>
@@ -564,13 +570,14 @@ export default function CircumferenceCalculator() {
             <div className="border-l-4 border-orange-500 pl-6">
               <h3 className="text-lg font-bold text-gray-900 mb-2">Can I calculate circumference from area alone?</h3>
               <p className="text-gray-700 leading-relaxed">
-                Yes, you can calculate circumference directly from area using the formula C = 2√(πA). This works because 
-                area and circumference are both functions of radius. Given area A = πr², you can solve for radius: r = √(A÷π). 
-                Then substitute this into the circumference formula C = 2πr to get C = 2π√(A÷π) = 2√(πA). This is particularly 
-                useful in applications where area is measured directly, such as land surveying, material calculations, or when 
-                working with circular cross-sections in engineering. For example, if you know a circular garden has an area 
-                of 50 square meters, you can quickly calculate that its circumference is approximately 25.1 meters for fencing 
-                purposes.
+                Yes, you can calculate circumference directly from area using the formula C = 2√(πA). This works because
+                area and circumference are both functions of radius. Given area A = πr², you can solve for radius: r = √(A÷π).
+                Then substitute this into the circumference formula C = 2πr to get C = 2π√(A÷π) = 2√(πA). This is particularly
+                useful in applications where area is measured directly, such as land surveying, material calculations, or when
+                working with circular cross-sections in engineering. For example, if you know a circular garden has an area
+                of 50 square meters, you can quickly calculate that its circumference is approximately 25.1 meters for fencing
+                purposes. You can also use our <a href="https://areaofcircle.com" className="text-blue-600 hover:underline">area of circle calculator</a> to
+                work in the reverse direction.
               </p>
             </div>
 
@@ -620,9 +627,11 @@ export default function CircumferenceCalculator() {
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Arc Length Calculations</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-                For a partial circle (arc), the length equals (θ÷360°) × C where θ is the central angle. This is essential 
-                for calculating distances along curved paths, designing curved architectural elements, and understanding 
-                planetary orbits. A 90° arc (quarter circle) has length C÷4.
+                For a partial circle (arc), the length equals (θ÷360°) × C where θ is the central angle. This is essential
+                for calculating distances along curved paths, designing curved architectural elements, and understanding
+                planetary orbits. A 90° arc (quarter circle) has length C÷4. See how this relates to the
+                <a href="https://equationofacircle.com" className="text-blue-600 hover:underline"> circle equation</a> for
+                deeper geometric understanding.
               </p>
             </div>
             
@@ -705,16 +714,20 @@ export default function CircumferenceCalculator() {
     The world&apos;s most accurate circle circumference calculator - Used by 500,000+ monthly
   </p>
       <p className="text-sm text-gray-500 mb-4">
-        Related:
+        Related Calculators:
         <a href="https://areaofcircle.com" className="text-blue-600 hover:underline mx-2">Area Calculator</a>
         •
         <a href="https://radiusofacircle.com" className="text-blue-600 hover:underline mx-2">Radius Finder</a>
+        •
+        <a href="https://howtofindcircumferenceofacircle.com" className="text-blue-600 hover:underline mx-2">How-To Guide</a>
+        •
+        <a href="https://circumferenceofacircleformula.com" className="text-blue-600 hover:underline mx-2">Formula Reference</a>
       </p>
       <p className="text-xs text-gray-400 mb-3">
         © 2025 CircumferenceOfACircle.com - Educational Resource
       </p>
       <p className="text-xs text-gray-500">
-        Part of <a href="https://lab101.com" className="text-blue-600 hover:underline">Lab101.com Education Network</a>
+        Explore more educational tools at <a href="https://lab101.com/math/" className="text-blue-600 hover:underline">Lab101.com Math Collection</a>
       </p>
     </div>
   </div>
