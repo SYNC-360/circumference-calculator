@@ -682,7 +682,7 @@ export default function CircumferenceCalculator() {
         {/* Related Circle Calculators - NEW SECTION */}
         <div className="bg-blue-50 rounded-2xl p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Related Circle Calculators</h2>
-          <div className="grid md:grid-cols-4 gap-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <a href="https://areaofcircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Area Calculator</p>
               <p className="text-sm text-gray-700 font-medium">Calculate using πr²</p>
@@ -691,10 +691,6 @@ export default function CircumferenceCalculator() {
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Radius Finder</p>
               <p className="text-sm text-gray-700 font-medium">Find from circumference</p>
             </a>
-            <a href="https://circumferenceofacircleformula.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
-              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Formula Guide</p>
-              <p className="text-sm text-gray-700 font-medium">2πr explained</p>
-            </a>
             <a href="https://equationofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Equation Calculator</p>
               <p className="text-sm text-gray-700 font-medium">Circle equation solver</p>
@@ -702,6 +698,22 @@ export default function CircumferenceCalculator() {
             <a href="https://howtofindcircumferenceofacircle.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
               <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">How to Find Guide</p>
               <p className="text-sm text-gray-700 font-medium">Step-by-step instructions</p>
+            </a>
+            <a href="https://circumferenceofacircleformula.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Formula Reference</p>
+              <p className="text-sm text-gray-700 font-medium">2πr, πd explained</p>
+            </a>
+            <a href="https://circlepng.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Circle Diagrams</p>
+              <p className="text-sm text-gray-700 font-medium">Download PNG images</p>
+            </a>
+            <a href="https://densityformula.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Density Formula</p>
+              <p className="text-sm text-gray-700 font-medium">Physics applications</p>
+            </a>
+            <a href="https://supplementaryangles.com" className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-500 transition-colors group">
+              <p className="font-bold text-gray-900 group-hover:text-blue-600 mb-1">Supplementary Angles</p>
+              <p className="text-sm text-gray-700 font-medium">Geometry connections</p>
             </a>
           </div>
         </div>
@@ -727,7 +739,7 @@ export default function CircumferenceCalculator() {
         © 2025 CircumferenceOfACircle.com - Educational Resource
       </p>
       <p className="text-xs text-gray-500">
-        Explore more educational tools at <a href="https://lab101.com/math/" className="text-blue-600 hover:underline">Lab101.com Math Collection</a>
+        Explore more educational tools at <a href="https://lab101.com" className="text-blue-600 hover:underline">Lab101.com</a>
       </p>
     </div>
   </div>
