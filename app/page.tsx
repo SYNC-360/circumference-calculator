@@ -9,68 +9,68 @@ export default function CircumferenceCalculator() {
   const [result, setResult] = useState<number | null>(null);
   const [steps, setSteps] = useState<string[]>([]);
 
-  const calculateCircumference = () => {
-    const value = parseFloat(inputValue);
-    if (isNaN(value) || value <= 0) {
-      setResult(null);
-      setSteps(['Please enter a valid positive number.']);
-      return;
-    }
-
-    let circumference: number;
-    let calculationSteps: string[] = [];
-
-    switch (inputType) {
-      case 'radius':
-        circumference = 2 * Math.PI * value;
-        calculationSteps = [
-          `Given: Radius (r) = ${value}`,
-          `Formula: C = 2πr`,
-          `C = 2 × π × ${value}`,
-          `C = 2 × 3.14159265... × ${value}`,
-          `C = ${(2 * 3.14159265).toFixed(8)} × ${value}`,
-          `C = ${circumference.toFixed(4)}`
-        ];
-        break;
-      case 'diameter':
-        circumference = Math.PI * value;
-        calculationSteps = [
-          `Given: Diameter (d) = ${value}`,
-          `Formula: C = πd`,
-          `C = π × ${value}`,
-          `C = 3.14159265... × ${value}`,
-          `C = ${circumference.toFixed(4)}`
-        ];
-        break;
-      case 'area':
-        circumference = 2 * Math.sqrt(Math.PI * value);
-        const intermediateValue = Math.PI * value;
-        const sqrtValue = Math.sqrt(intermediateValue);
-        calculationSteps = [
-          `Given: Area (A) = ${value}`,
-          `Formula: C = 2√(πA)`,
-          `Step 1: Calculate πA = π × ${value}`,
-          `πA = 3.14159265... × ${value} = ${intermediateValue.toFixed(4)}`,
-          `Step 2: Find √(πA) = √${intermediateValue.toFixed(4)}`,
-          `√(πA) = ${sqrtValue.toFixed(4)}`,
-          `Step 3: Multiply by 2`,
-          `C = 2 × ${sqrtValue.toFixed(4)}`,
-          `C = ${circumference.toFixed(4)}`
-        ];
-        break;
-      default:
-        circumference = 0;
-    }
-
-    setResult(circumference);
-    setSteps(calculationSteps);
-  };
-
   useEffect(() => {
+    const calculateCircumference = () => {
+      const value = parseFloat(inputValue);
+      if (isNaN(value) || value <= 0) {
+        setResult(null);
+        setSteps(['Please enter a valid positive number.']);
+        return;
+      }
+
+      let circumference: number;
+      let calculationSteps: string[] = [];
+
+      switch (inputType) {
+        case 'radius':
+          circumference = 2 * Math.PI * value;
+          calculationSteps = [
+            `Given: Radius (r) = ${value}`,
+            `Formula: C = 2πr`,
+            `C = 2 × π × ${value}`,
+            `C = 2 × 3.14159265... × ${value}`,
+            `C = ${(2 * 3.14159265).toFixed(8)} × ${value}`,
+            `C = ${circumference.toFixed(4)}`
+          ];
+          break;
+        case 'diameter':
+          circumference = Math.PI * value;
+          calculationSteps = [
+            `Given: Diameter (d) = ${value}`,
+            `Formula: C = πd`,
+            `C = π × ${value}`,
+            `C = 3.14159265... × ${value}`,
+            `C = ${circumference.toFixed(4)}`
+          ];
+          break;
+        case 'area':
+          circumference = 2 * Math.sqrt(Math.PI * value);
+          const intermediateValue = Math.PI * value;
+          const sqrtValue = Math.sqrt(intermediateValue);
+          calculationSteps = [
+            `Given: Area (A) = ${value}`,
+            `Formula: C = 2√(πA)`,
+            `Step 1: Calculate πA = π × ${value}`,
+            `πA = 3.14159265... × ${value} = ${intermediateValue.toFixed(4)}`,
+            `Step 2: Find √(πA) = √${intermediateValue.toFixed(4)}`,
+            `√(πA) = ${sqrtValue.toFixed(4)}`,
+            `Step 3: Multiply by 2`,
+            `C = 2 × ${sqrtValue.toFixed(4)}`,
+            `C = ${circumference.toFixed(4)}`
+          ];
+          break;
+        default:
+          circumference = 0;
+      }
+
+      setResult(circumference);
+      setSteps(calculationSteps);
+    };
+
     if (inputValue) {
       calculateCircumference();
     }
-  }, [inputValue, inputType, calculateCircumference]);
+  }, [inputValue, inputType]);
 
   const examples = [
     { 

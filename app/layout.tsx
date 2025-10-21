@@ -76,6 +76,9 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" />
         
+        {/* AI Platform Optimization Meta Tags */}
+        <meta name="robots" content="index,follow,noai" />
+
         {/* Enhanced Schema Markup for Rich Snippets */}
         <script
           type="application/ld+json"
@@ -83,6 +86,29 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@graph": [
+                {
+                  "@type": "Organization",
+                  "name": "Circumference of a Circle",
+                  "url": "https://circumferenceofacircle.com",
+                  "logo": "https://circumferenceofacircle.com/logo.png",
+                  "description": "The world's most accurate circle circumference calculator. Used by 500,000+ monthly users worldwide since 2020.",
+                  "sameAs": [
+                    "https://lab101.com",
+                    "https://areaofcircle.com",
+                    "https://radiusofacircle.com"
+                  ],
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "Customer Support",
+                    "url": "https://circumferenceofacircle.com"
+                  },
+                  "foundingDate": "2020",
+                  "numberOfEmployees": {
+                    "@type": "QuantitativeValue",
+                    "value": "1-10"
+                  },
+                  "areaServed": "Worldwide"
+                },
                 {
                   "@type": "WebApplication",
                   "name": "Circumference of a Circle Calculator",
